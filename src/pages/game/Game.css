@@ -1,0 +1,19 @@
+.score{
+    width: 10vw;
+    height: 20vh;
+    position: absolute;
+}
+
+.score h1{
+    position: absolute;
+    left: 25%;
+}
+
+.score p{
+    position: absolute;
+    left: 15%;
+    font-size: 1.5em;
+    margin-top: 32px;
+}
+
+/* number selector */

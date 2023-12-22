@@ -1,0 +1,36 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin-right: 130px;
+  }
+  
+  h1{
+    font-size: 6em;
+  }
+  
+  .game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn{
+    background-color: black;
+    width: 15vw;
+    height: 6vh;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.6em;
+    padding-top: 12px;
+  }
+  
+  .btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }

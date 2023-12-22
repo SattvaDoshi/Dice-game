@@ -1,0 +1,34 @@
+.number{
+    margin: 0 20px;
+    display: flex;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.num{
+    height: 53px;
+    width: 75px;
+    border: 2px solid black;
+    font-size: 2em;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+.num:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.right p{
+    margin-left: 50px;
+    font-size: 2em;
+    font-weight: bolder;
+}
