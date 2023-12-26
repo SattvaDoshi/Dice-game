@@ -7,7 +7,7 @@ const Numberslector = ({selectNumber,SetselectNumber}) => {
   return (
     <>
       <div className="right">
-      <p>Select A Number .. </p>
+      <p>Your Selected Number : {selectNumber}</p>
         <div className='number'>
           {
             arrNumber.map((value, i) => (

@@ -4,13 +4,15 @@ import './Gameplay.css'
 
 const Gameplay = ({currentdice,roledice,setscore}) => {
 
-    
+    const restartgame=()=>{
+      setscore(0);
+    }
   return (
     <div>
         <div className="game">
             <img onClick={roledice} src={`src/assets/dice_${currentdice}.png`} alt="img" />
             <p>Click on the Dice to Roll</p>
-            <button>Restart the Score</button>
+            <button onClick={restartgame}>Restart the Score</button>
         </div>
     </div>
   )
